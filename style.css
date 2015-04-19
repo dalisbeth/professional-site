@@ -183,7 +183,7 @@ td {
     transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -webkit-transition: all 0.3s ease 0s;
-    width: 46%; /* auto */
+    width: 48%; /* auto */
     text-align: center;
     background: none repeat scroll 0 0 #453200;
     }
