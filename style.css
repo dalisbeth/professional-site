@@ -7,9 +7,37 @@ REDEFINITIONS
 
 .h1 {
     font-family: Federo;
-    font-size: 3em; 
+    font-size: 3.5em; 
+    line-height: 1em;
     margin: .67em 0em;
-    display: block
+    display: block;
+    color: #45360F;    
+    }
+
+.container {
+    position: relative;
+    }
+
+.topright {
+    position: absolute;
+    bottom: -1em;
+    right: 1em;
+    font-family: Opensans;
+    letter-spacing: -2px;
+    font-weight: 700;
+    font-size: 3em;
+    color: #ffffff;
+    }
+
+.topcenter {
+    position: absolute;
+    top: 1em;
+    font-family: federo;
+    letter-spacing: -1px;
+    font-weight: 600px;
+    font-size: 3em;
+    line-height: 1em;
+    color: #45360F;
     }
 
 .h2 {
@@ -68,17 +96,17 @@ body {
     }
     
 section{
-    width: ;
     padding: 4em 0em;
-    -webkit-box-shadow: 0px 0px 3px -2px rgba(0,0,0,0.99);
-	-moz-box-shadow: 0px 0px 3px -2px rgba(0,0,0,0.99);
-	box-shadow: 0px 0px 3px -2px rgba(0,0,0,0.99);
+    -webkit-box-shadow: 0px 0px 4px -2px rgba(0,0,0,0.99);
+	-moz-box-shadow: 0px 0px 4px -2px rgba(0,0,0,0.99);
+	box-shadow: 0px 0px 4px -2px rgba(0,0,0,0.99);
     }
     
 article{
     line-height: 1.5em;
-    padding: .8em 0em .8em 0em;
-    width: 750px;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 800px;
     margin: auto;
     }
  
@@ -109,10 +137,25 @@ article{
 	font-size: 2em;
 	margin: auto;
 	}
-    
+
+.contentid {
+    font-size: 4em;
+    font-family: work sans;
+    font-weight: 100;
+    color: #45360F;
+    letter-spacing: -4;
+    }
+
+.worksubtitle{
+    font-size: 1.2em;
+    color: #C76000;
+    line-height: 1.5em;
+    display: block;
+    }
+
 #banner {
 	position: relative;
-	height:600px;
+	height:700px;
 	margin:0em;
 	padding:0em;
 	}
@@ -122,6 +165,84 @@ article{
 	margin:0em;
 	padding:0em;
 	
+    }
+
+#worklist {
+    position:relative;
+    height: 200px;
+    }
+
+#worklist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    }
+
+#worklist li, #worklist a {
+    height: 200px;
+    display: block;
+    }
+
+#sample1 {
+    left:40px;
+    width:200px;
+    background: url('icons/main TotR icon.png') 0 0;
+    }
+
+#sample2 {
+    left: 300px;
+    width: 200px;
+    background: url('icons/main herenow icon.png') 200px 0;
+    }
+
+#sample3 {
+    left: 560px;
+    width: 200px;
+    background: url('icons/main converse icon.png') 400px 0;
+    }
+
+#sample4 {
+    left: 40px;
+    width: 200px;
+    background: url('icons/main ge icon.png') 400px 0;
+    }
+
+#sample5 {
+    left: 300px;
+    width: 200px;
+    background: url('icons/main heineken icon.png') 400px 0;
+    }
+
+#sample6 {
+    left: 560px;
+    width: 200px;
+    background: url('icons/main luxuria icon.png') 400px 0;
+    }
+
+#sample1 a:hover {
+    background: transparent url('icons/TotR-icon.png') 0 200px;
+    }
+                    
+#sample2 a:hover {
+    background: transparent url('icons/tjb.png') 200px 200px;
+    }
+
+#sample3 a:hover {
+    background: transparent url('icons/converse logo.png') 200px 200px;
+    }
+
+#sample4 a:hover {
+    background: transparent url('icons/ge icon.png') 200px 200px;
+    }
+
+#sample5 a:hover {
+    background: transparent url('icons/heineken logo.png') 200px 200px;
+    }
+
+#sample6 a:hover {
+    background: transparent url('icons/luxuria logo.png') 200px 200px;
     }
 
 a {
@@ -141,12 +262,17 @@ p 	{
 	}
 
 table {
-	margin: 0em 1em 0em 2em;
+	margin: 0em 1em 0em 1em; 
 	}
-	
+
+.abouttr {
+    margin-right: -100px;
+}
+
 .abouttd {
 	position: relative;
 	padding-left: 2em;
+    padding-right: 1.5em;
 	}
 
 .td {
@@ -160,15 +286,41 @@ table {
 	}	
 
 td {
-	padding-left: .2em;
+	padding-left: 2em;
+    padding-right: em;
 	
 	}
   
 .icons {
 	padding: 0em .5em;
 	height: 30px;
+    margin-bottom: 2.5em;
 	}   
-	
+
+.worklogos {
+    padding-bottom: 1.5em;
+    padding-right: 1.8em;
+    padding-left: 1.8em;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    position;
+    }
+
+.img {
+    height: auto;
+    width: 100%;
+    margin-top: -4em;
+    margin-bottom: -4em;
+    }
+
+.fade {
+    opacity: .5;
+    position: absolute;
+    transition-property: all;
+    }
+
 .btn-custom {
     border: 0 none;
     border-radius: 2px 2px 2px 2px;
@@ -236,4 +388,5 @@ COLOR DEFINITIONS
 	
 .brown {
 	color: #45360F;	
-	}
+
+/*
