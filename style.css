@@ -63,6 +63,7 @@ REDEFINITIONS
     
 a:link {
     color: #C76000;
+    cursor: pointer;
 }
 
 a:visited {
