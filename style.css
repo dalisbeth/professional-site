@@ -189,31 +189,31 @@ article{
 #sample1 {
     left:40px;
     width:200px;
-    background: url('icons/main TotR icon.png') 0 0;
+    background: url('icons/main herenow icon.png') 0 0;
     }
 
 #sample2 {
     left: 300px;
     width: 200px;
-    background: url('icons/main herenow icon.png') 200px 0;
+    background: url('icons/main heineken icon.png') 200px 0;
     }
 
 #sample3 {
     left: 560px;
     width: 200px;
-    background: url('icons/main converse icon.png') 400px 0;
+    background: url('icons/main ge icon.png') 400px 0;
     }
 
 #sample4 {
     left: 40px;
     width: 200px;
-    background: url('icons/main ge icon.png') 400px 0;
+    background: url('icons/main%20TotR%20icon.png') 400px 0;
     }
 
 #sample5 {
     left: 300px;
     width: 200px;
-    background: url('icons/main heineken icon.png') 400px 0;
+    background: url('icons/main%20converse%20icon.png') 400px 0;
     }
 
 #sample6 {
@@ -223,23 +223,23 @@ article{
     }
 
 #sample1 a:hover {
-    background: transparent url('icons/TotR-icon.png') 0 200px;
+    background: transparent url('icons/tjb.png') 0 200px;
     }
                     
 #sample2 a:hover {
-    background: transparent url('icons/tjb.png') 200px 200px;
+    background: transparent url('icons/heineken logo.png') 200px 200px;
     }
 
 #sample3 a:hover {
-    background: transparent url('icons/converse logo.png') 200px 200px;
-    }
-
-#sample4 a:hover {
     background: transparent url('icons/ge icon.png') 200px 200px;
     }
 
+#sample4 a:hover {
+    background: transparent url('icons/TotR-icon.png') 200px 200px;
+    }
+
 #sample5 a:hover {
-    background: transparent url('icons/heineken logo.png') 200px 200px;
+    background: transparent url('icons/converse logo.png') 200px 200px;
     }
 
 #sample6 a:hover {
@@ -336,7 +336,7 @@ td {
     transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -webkit-transition: all 0.3s ease 0s;
-    width: 48%; /* auto */
+    width: 175px; 
     text-align: center;
     background: none repeat scroll 0 0 #453200;
     }
